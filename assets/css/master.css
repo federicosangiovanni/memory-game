@@ -1,0 +1,86 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0% 25%;
+        background-color: aquamarine;
+        font-family: 'Bangers', cursive;
+    }
+    /* header */
+    
+    .header {
+        width: 100%;
+        padding: 30px;
+    }
+    
+    .testo-header {
+        font-size: 80px;
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px black;
+    }
+    /* main */
+    
+    .row::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .row {
+        width: 100%;
+        height: 100%;
+        background-color: aquamarine;
+        margin: 30px 0px;
+    }
+    
+    .card:hover .overlay {
+        display: none;
+    }
+    
+    .card {
+        width: 23%;
+        height: 220px;
+        background-color: white;
+        border-radius: 20px;
+        margin: 1% 1%;
+        position: relative;
+        padding-top: 10px;
+        float: left;
+    }
+    
+    .baloon {
+        display: block;
+        width: 120px;
+        height: 140px;
+        margin: 0 auto;
+    }
+    
+    .card-text {
+        font-size: 30px;
+        color: fuchsia;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .overlay {
+        width: 100%;
+        height: 220px;
+        border-radius: 20px;
+        position: absolute;
+        top: 0;
+    }
+    
+    .overlay-img {
+        width: 100%;
+        height: 220px;
+        border-radius: 20px;
+    }
+    /* footer */
+    
+    .footer {
+        text-align: center;
+    }
